@@ -1,0 +1,14 @@
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>console</headerType>
+
+    <jar>target/excel2word-app.jar</jar>
+    <outfile>excel2word-app.exe</outfile>
+
+    <errTitle>Error</errTitle>
+    <chdir>.</chdir>
+    <priority>normal</priority>
+
+    <stayAlive>false</stayAlive>
+    <restartOnCrash>false</restartOnCrash>
+</launch4jConfig>
